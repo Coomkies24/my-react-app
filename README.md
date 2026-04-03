@@ -8,7 +8,7 @@ A Laravel project demonstrating One-to-One, One-to-Many, and Many-to-Many relati
 
 ---
 
-## 📌 Objective
+## Objective
 
 This project demonstrates the three types of Eloquent Relationships in Laravel:
 
@@ -20,7 +20,7 @@ All relationships are implemented in a single Laravel project.
 
 ---
 
-## 🧩 Project Concept
+## Project Concept
 
 This system represents a **Library Management System** where:
 
@@ -32,7 +32,7 @@ This system represents a **Library Management System** where:
 
 ## 🔗 Relationships Implemented
 
-### 1️⃣ One-to-One
+### One-to-One
 **Member → MembershipCard**
 
 - Each Member has one Membership Card  
@@ -40,7 +40,7 @@ This system represents a **Library Management System** where:
 
 ---
 
-### 2️⃣ One-to-Many
+### One-to-Many
 **Category → Books**
 
 - One Category can have many Books  
@@ -48,7 +48,7 @@ This system represents a **Library Management System** where:
 
 ---
 
-### 3️⃣ Many-to-Many
+### Many-to-Many
 **Member ↔ Books**
 
 - A Member can borrow many Books  
@@ -56,7 +56,7 @@ This system represents a **Library Management System** where:
 
 ---
 
-## 🗄️ Database Structure
+## Database Structure
 
 Tables used:
 
@@ -68,7 +68,7 @@ Tables used:
 
 ---
 
-## 🧪 Sample Data
+## Sample Data
 
 ### Members and their Books
 - Daniel Casimiro → Physics Basics, Chemistry Intro  
@@ -80,7 +80,7 @@ Tables used:
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
@@ -95,3 +95,12 @@ php artisan serve
 
 Open in browser:
 http://127.0.0.1:8000/
+```
+
+---
+
+### ERD (Entity Relationship Diagram)
+The ERD for this project was created using draw.io.
+
+<img width="462" height="471" alt="Eloquent Relationship drawio" src="https://github.com/user-attachments/assets/04e86ab8-04ed-48f1-8812-6a1fb234a1ea" />
+    
