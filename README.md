@@ -95,6 +95,4 @@ npm run dev
 
 The database architecture for this project.
 
-\<img width="462" height="471" alt="Eloquent Relationship drawio" src="https://github.com/user-attachments/assets/04e86ab8-04ed-48f1-8812-6a1fb234a1ea" /\>
-
-```
+<img width="462" height="471" alt="Eloquent Relationship drawio" src="https://github.com/user-attachments/assets/04e86ab8-04ed-48f1-8812-6a1fb234a1ea" />
