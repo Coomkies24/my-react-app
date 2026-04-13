@@ -30,6 +30,13 @@ export default function AuthenticatedLayout({ header, children }) {
                                 >
                                     Dashboard
                                 </NavLink>
+                                {/* NEW: Desktop Navigation Link for Books */}
+                                <NavLink
+                                    href={route('books.index')}
+                                    active={route().current('books.index')}
+                                >
+                                    Library Books
+                                </NavLink>
                             </div>
                         </div>
 
@@ -133,6 +140,13 @@ export default function AuthenticatedLayout({ header, children }) {
                             active={route().current('dashboard')}
                         >
                             Dashboard
+                        </ResponsiveNavLink>
+                        {/* NEW: Mobile Navigation Link for Books */}
+                        <ResponsiveNavLink
+                            href={route('books.index')}
+                            active={route().current('books.index')}
+                        >
+                            Library Books
                         </ResponsiveNavLink>
                     </div>
 
